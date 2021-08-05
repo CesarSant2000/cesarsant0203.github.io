@@ -552,6 +552,12 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 .alert-danger {
   background-color: #ff9966;
 }
+.mbr-section-btn a.btn:not(.btn-form) {
+  border-radius: 100px;
+}
+.mbr-gallery-filter li a {
+  border-radius: 100px !important;
+}
 .mbr-gallery-filter li.active .btn {
   background-color: #007080;
   border-color: #007080;
@@ -559,6 +565,9 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 }
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
+}
+.nav-tabs .nav-link {
+  border-radius: 100px !important;
 }
 a,
 a:hover {
@@ -585,8 +594,8 @@ a:hover {
   color: #ffffff;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 .form-control {
   font-family: 'Jost', sans-serif;
@@ -615,6 +624,19 @@ blockquote {
   border-color: #007080;
 }
 /* Forms */
+.mbr-form .input-group-btn a.btn {
+  border-radius: 100px !important;
+}
+.mbr-form .input-group-btn a.btn:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
+.mbr-form .input-group-btn button[type="submit"] {
+  border-radius: 100px !important;
+  padding: 1rem 3rem;
+}
+.mbr-form .input-group-btn button[type="submit"]:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
 .jq-selectbox li:hover,
 .jq-selectbox li.selected {
   background-color: #007080;
@@ -716,28 +738,6 @@ a {
 }
 .cid-sAO2MWzPLX .mbr-description {
   color: #bed3f9;
-}
-.cid-sAO173yBlI {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-  background-image: url("../../../assets/images/code-wallpaper-2000x1125.jpeg");
-}
-.cid-sAO173yBlI .mbr-iconfont {
-  display: block;
-  font-size: 4rem;
-  color: #007080;
-  margin-bottom: 2rem;
-}
-.cid-sAO173yBlI .card-wrapper {
-  min-height: 220px;
-  transition: all 0.3s;
-  border-radius: 4px;
-  padding: 1rem;
-  background: #c6d4e3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 2rem;
 }
 .cid-sAO6z04NNX {
   padding-top: 6rem;
@@ -2214,8 +2214,8 @@ a {
   color: #007080;
 }
 .cid-sAOuibCsM5 {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-image: url("../../../assets/images/code-wallpaper-2000x1125.jpeg");
 }
 .cid-sAOuibCsM5 .google-map {
@@ -2244,13 +2244,13 @@ a {
   display: none;
 }
 .cid-sAOuq2u2fm {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-image: url("../../../assets/images/code-wallpaper-2000x1125.jpeg");
 }
 .cid-sAOuq2u2fm .mbr-overlay {
-  background-color: #cebfaf;
-  opacity: 0.4;
+  background-color: #bbbbbb;
+  opacity: 0.5;
 }
 .cid-sAOuq2u2fm form .mbr-section-btn {
   text-align: center;
@@ -2265,8 +2265,8 @@ a {
   }
 }
 .cid-sBfRonk7rr {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-image: url("../../../assets/images/code-wallpaper-2000x1125.jpeg");
 }
 .cid-sBfRonk7rr .card-box {
@@ -3189,7 +3189,7 @@ a {
   }
 }
 .cid-sBanMTrXIP {
-  background-image: url("../../../assets/images/clubportada-1013x520.png");
+  background-image: url("../../../assets/images/portada-fb-op1-2000x740.jpg");
 }
 .cid-sBaogKVUCk {
   padding-top: 6rem;
